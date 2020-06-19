@@ -22,8 +22,8 @@ import collections
 import random
 import tokenization
 import tensorflow as tf
+from absl import flags
 
-flags = tf.flags
 
 FLAGS = flags.FLAGS
 

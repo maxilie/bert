@@ -24,8 +24,7 @@ import run_classifier
 import tokenization
 import tensorflow as tf
 import tensorflow_hub as hub
-
-flags = tf.flags
+from absl import flags
 
 FLAGS = flags.FLAGS
 

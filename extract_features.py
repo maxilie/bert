@@ -26,8 +26,7 @@ import re
 import modeling
 import tokenization
 import tensorflow as tf
-
-flags = tf.flags
+from absl import flags
 
 FLAGS = flags.FLAGS
 
